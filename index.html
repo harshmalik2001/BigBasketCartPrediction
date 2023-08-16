@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommendations</title>
+</head>
+<body>
+    <h1>Product Recommendations</h1>
+    <form method="POST">
+        <label for="product">Enter a product:</label>
+        <input type="text" id="product" name="product" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    {% if recommendations %}
+    <h2>Recommended products after buying {{ input_product }}:</h2>
+    <ul>
+        {% for recommendation in recommendations %}
+        <li>{{ recommendation[0] }}: {{ recommendation[1] }}%</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
