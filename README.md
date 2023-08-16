@@ -15,3 +15,5 @@ Using Apriori, we can generate rules of the form if itemset A then itemset B bas
 This dataset can be used for association rule learning and to develop predictive models for recommending items to customers based on their shopping history. The dataset can be loaded into any programming language or data analysis tool that supports CSV file format.
 
 To get started, you can use the Apriori algorithm to identify frequent itemsets in the dataset and generate association rules based on these itemsets. You can then use these rules to predict which items are likely to be bought together in future transactions.
+#Output
+![image](https://github.com/harshmalik2001/BigBasketCartPrediction/assets/128287360/b89eff87-8d43-443a-9b09-d2e047294481)
